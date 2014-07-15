@@ -1,0 +1,24 @@
+{
+  "apiVersion": "1.0",
+  "swaggerVersion": "1.2",
+  "basePath": "/api/v1/",
+  "resourcePath": "some",
+  "apis": [
+    {
+      "path": "some",
+      "operations": [
+        {
+          "summary": "Fetches some items",
+          "responseMessages": [
+            {
+              "code": 401,
+              "message": "Unauthorized"
+            }
+          ],
+          "method": "get",
+          "nickname": "Api::V1::Some#index"
+        }
+      ]
+    }
+  ]
+}
